@@ -1,0 +1,4 @@
+
+<city-cmp district="{{district}}"></city-cmp>
+<like-cmp isLike="{{classicData.like_status}}" countLike="{{classicData.fav_nums}}"></like-cmp>
+<time-cmp></time-cmp>
