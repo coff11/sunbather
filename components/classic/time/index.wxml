@@ -1,3 +1,7 @@
 <view>
-  <text>components/classic/time/index.wxml</text>
+  <text>{{year}}</text>
+  <text>{{month}}</text>
+  <text>{{day}}</text>
+  <text>{{hour}}</text>
+  <text>{{minute}}</text>
 </view>
