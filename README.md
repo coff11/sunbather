@@ -1,2 +1,3 @@
-# sunrise
-A mini program about weather.
+# SunBather
+
+一款根据用户当前地理位置返回天气状况的小程序。
