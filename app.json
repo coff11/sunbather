@@ -1,14 +1,33 @@
 {
   "pages": [
-    "pages/classic/classic"
+    "pages/index/index",
+    "pages/forecast/forecast",
+    "pages/lifestyle/lifestyle"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "小程序",
     "backgroundColor": "#ffffff",
-    "backgroundTextStyle": "light",
-    "enablePullDownRefresh": true,
-    "onReachBottomDistance": 50
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "Now"
+      },
+      {
+        "pagePath": "pages/forecast/forecast",
+        "text": "Forecast"
+      },
+      {
+        "pagePath": "pages/lifestyle/lifestyle",
+        "text": "Lifestyle"
+      }
+    ],
+    "color": "#444444",
+    "selectedColor": "#777777",
+    "backgroundColor": "#ffffff"
   }
 }

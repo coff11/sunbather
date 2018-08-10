@@ -1,2 +1,2 @@
 <!--components/classic/city/index.wxml-->
-<text>{{district}}</text>
+<text>{{dis}}</text>

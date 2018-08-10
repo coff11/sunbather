@@ -1,0 +1,8 @@
+
+<view>
+<view>{{tmp}}tmp</view>
+<view>{{condTxt}}condTxt</view>
+<view>{{condCode}}condCode</view>
+<view>{{windSc}}windSc</view>
+<view>{{windDir}}windDir</view>
+</view>

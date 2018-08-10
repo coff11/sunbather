@@ -1,0 +1,3 @@
+<!--pages/forcast/forescast.wxml-->
+<text>pages/forcast/forescast.wxml</text>
+<view>{{dayOneCondTxt}}</view>

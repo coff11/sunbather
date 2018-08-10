@@ -1,10 +1,10 @@
-// components/classic/city/index.js
+
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-    district: {
+    dis: {
       type: String,
       value: ''
     }
@@ -14,6 +14,14 @@ Component({
    * 组件的初始数据
    */
   data: {
+    
+  },
+
+  created: function() {
+
+  },
+
+  attached: function() {
 
   },
 
