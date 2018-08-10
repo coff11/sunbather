@@ -1,3 +1,7 @@
 <!--pages/forcast/forescast.wxml-->
-<text>pages/forcast/forescast.wxml</text>
-<view>{{dayOneCondTxt}}</view>
+<view class="container">
+  <text>还没写，你看个鸡儿呢？</text>
+
+
+  <view>明天{{dayOneCondTxt}}</view>
+</view>

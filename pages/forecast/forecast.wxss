@@ -1,1 +1,5 @@
-/* pages/forcast/forescast.wxss */
+
+.container {
+  margin-top: 100px;
+  font-size: 50px;
+}

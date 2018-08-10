@@ -1,0 +1,14 @@
+
+
+<view class="container{{isLoad? ' ' : ' hide'}}">
+  <view class="butterfly">
+    <view class="wing">
+      <view class="bit"></view>
+      <view class="bit"></view>
+    </view>
+    <view class="wing">
+      <view class="bit"></view>
+      <view class="bit"></view>
+    </view>
+  </view>
+</view>

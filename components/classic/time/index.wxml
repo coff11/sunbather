@@ -1,7 +1,5 @@
-<view>
-  <text>{{year}}</text>
-  <text>{{month}}</text>
-  <text>{{day}}</text>
-  <text>{{hour}}</text>
-  <text>{{minute}}</text>
+<view class="container">
+  <text class="time">{{hour}}{{":"}}{{minute}}</text>
+  <text class="intro">{{hour && "更新"}}</text>
 </view>
+

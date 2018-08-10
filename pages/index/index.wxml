@@ -1,6 +1,14 @@
 
 <city-cmp dis="{{dis}}"></city-cmp>
-<like-cmp isLike="{{classicData.like_status}}" countLike="{{classicData.fav_nums}}"></like-cmp>
+<weather-cmp  tmp="{{tmp}}"
+              condTxt="{{condTxt}}"
+              condCode="{{condCode}}"
+              windSc="{{windSc}}"
+              windDir="{{windDir}}"
+              hum="{{hum}}"
+              air="{{air}}"
+></weather-cmp>
+
 <time-cmp year="{{year}}"
           month="{{month}}"
           day="{{day}}"
@@ -12,9 +20,5 @@
           windSc="{{windSc}}"
           windDir="{{windDir}}"
 ></time-cmp>
-<weather-cmp  tmp="{{tmp}}"
-              condTxt="{{condTxt}}"
-              condCode="{{condCode}}"
-              windSc="{{windSc}}"
-              windDir="{{windDir}}"
-></weather-cmp>
+
+<butterfly-cmp isLoad="{{isLoad}}"></butterfly-cmp>

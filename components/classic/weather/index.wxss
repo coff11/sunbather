@@ -1,1 +1,67 @@
-/* components/classic/weather/index.wxss */
+
+.container {
+  margin-top: 100rpx;
+  color: #3c5f81;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 300rpx;
+  position: relative;
+  right: 30rpx;
+}
+
+.tmp-txt {
+  font-size: 160rpx;
+  position: relative;
+  top: 80rpx;
+}
+
+.cond-img {
+  width: 160rpx;
+  height: 160rpx;
+}
+
+.cond-txt {
+  font-size: 16px;
+}
+
+.wind-container {
+  display: flex;
+  padding-left: 30rpx;
+  padding-top: 50rpx;
+  margin: 40rpx 0;
+}
+
+.wind-img {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.wind-txt {
+  padding-left: 8px;
+  line-height: 60rpx;
+  color: #3a3a3a;
+  font-size: 40rpx;
+}
+
+
+.air-container {
+  padding-left: 540rpx;
+  position: relative;
+  top: -100rpx;
+}
+
+.air-img {
+  width: 24px;
+  height: 24px;
+}
+.air-txt { 
+  padding-left: 6px;
+  color: #3a3a3a;
+  font-size: 16px;
+  position: relative;
+  top: -6px;
+}

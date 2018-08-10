@@ -16,11 +16,19 @@ Component({
       type: String,
       value: ''
     },
+    hum: {
+      type: String,
+      value: ''
+    },
     windSc: {
       type: String,
       value: ''
     },
     windDir: {
+      type: String,
+      value: ''
+    },
+    air: {
       type: String,
       value: ''
     }

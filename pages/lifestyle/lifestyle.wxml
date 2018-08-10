@@ -1,2 +1,5 @@
-<!--pages/Lifestyle/Lifestyle.wxml-->
-<text>pages/Lifestyle/Lifestyle.wxml</text>
+<view class="container">
+  <text>？？？？？？？</text>
+  <view>不听话？？？？</view>
+  <view>还点</view>
+</view>

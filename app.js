@@ -15,10 +15,12 @@ App({
     hour: '',
     minute: '',
     tmp: '',
+    hum: '',
     condTxt: '',
     condCode: '',
     windSc: '',
     windDir: '',
+    air: '',
     dayOneCondTxt: ''
   },
   /**
@@ -67,6 +69,7 @@ App({
                 const day = date.substring(8, 10)
                 const hour = date.substring(11, 13)
                 const minute = date.substring(14, 16)
+
                 // 获取 Now页面 天气数据
                 const nowData = res.now
                 const tmp = nowData.tmp // 温度
@@ -74,6 +77,13 @@ App({
                 const condCode = nowData.cond_code // 天气代码
                 const windSc = nowData.wind_sc // 风力
                 const windDir = nowData.wind_dir // 风向
+                const hum = nowData.hum // 相对湿度
+
+                const airArr = [...res.lifestyle].filter((item) => {
+                  return item.type == 'air'
+                })
+                const air = airArr[0].brf   // 实时空气质量
+
                 // 获取 Forecast页面 三天天气数据
                 const dayOne = res.daily_forecast[0]
                 const dayTwo = res.daily_forecast[1]
@@ -90,11 +100,13 @@ App({
                   hour,
                   minute,
                   tmp,
+                  hum,
                   condTxt,
                   condCode,
                   windSc,
                   windDir,
                   dis,
+                  air,
                   dayOneCondTxt
                 }
                 this_.handleIndex && this_.handleIndex(res)

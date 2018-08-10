@@ -1,1 +1,25 @@
-/* components/classic/city/index.wxss */
+
+.container {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 200rpx;
+  height: 100rpx;
+  margin-left: 20rpx;
+  /* box-shadow: 0 0 80rpx #ccc; */
+}
+
+.china {
+  font-size: 20px;
+  padding-right: 4px;
+  font-weight: bold;
+}
+.district {
+  font-size: 16px;
+  width: 20px;
+  border-left: 2px solid #222;
+  padding-left: 4px;
+  position: relative;
+  font-weight: bold;
+  top: 20px;
+}

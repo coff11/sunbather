@@ -1,1 +1,20 @@
-/* components/classic/time/index.wxss */
+
+.container {
+  display: flex;
+  font-size: 24rpx;
+  line-height: 24rpx;
+  color: #ccc;
+  position: absolute;
+  right: 20rpx;
+  bottom: 10rpx;
+}
+
+.intro {
+  padding-left: 10rpx;
+}
+
+.time {
+
+}
+
+

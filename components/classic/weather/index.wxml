@@ -1,8 +1,29 @@
+<view class="container">
 
-<view>
-<view>{{tmp}}tmp</view>
-<view>{{condTxt}}condTxt</view>
-<view>{{condCode}}condCode</view>
-<view>{{windSc}}windSc</view>
-<view>{{windDir}}windDir</view>
+  <view class="air-container">
+    <image src="{{hum? '/images/air.png' : ''}}" class="air-img"></image>
+    <text class="air-txt">{{air}}</text>
+  </view>
+
+  <view class="img-container">
+  <image src="/images/condicon/{{condCode}}.png" class="cond-img"></image>
+  <view class="tmp-txt">{{tmp}}{{tmp && "°"}}</view>
+  <view class="cond-txt">{{condTxt}}</view>
+  </view>
+
+  <view class="wind-container">
+    <image src="{{windDir? '/images/wind-dir.png' : ''}}" class="wind-img"></image>
+    <text class="wind-txt">{{windDir}}</text>
+  </view>
+
+  <view class="wind-container">
+    <image src="{{windSc? '/images/wind-sc.png' : ''}}" class="wind-img"></image>
+    <text class="wind-txt">{{windSc}}{{windSc && " 级"}}</text>
+  </view>
+
+  <view class="wind-container">
+    <image src="{{hum? '/images/hum.png' : ''}}" class="wind-img"></image>
+    <text class="wind-txt">{{hum}}{{hum && " %"}}</text>
+  </view>
+
 </view>

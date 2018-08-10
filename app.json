@@ -15,15 +15,21 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "Now"
+        "text": "Now",
+        "iconPath": "images/now.png",
+        "selectedIconPath": "images/now-focus.png"
       },
       {
         "pagePath": "pages/forecast/forecast",
-        "text": "Forecast"
+        "text": "Forecast",
+        "iconPath": "images/forecast.png",
+        "selectedIconPath": "images/forecast-focus.png"
       },
       {
         "pagePath": "pages/lifestyle/lifestyle",
-        "text": "Lifestyle"
+        "text": "Lifestyle",
+        "iconPath": "images/lifestyle.png",
+        "selectedIconPath": "images/lifestyle-focus.png"
       }
     ],
     "color": "#444444",
