@@ -1,7 +1,30 @@
-<!--pages/forcast/forescast.wxml-->
-<view class="container">
-  <text>还没写，你看个鸡儿呢？</text>
 
+<card-cmp condTxt="{{dayOneCondTxtD}}"
+          condCode="{{dayOneCondCodeD}}"
+          windDir="{{dayOneWindDir}}"
+          windSc="{{dayOneWindSc}}"
+          date="明天"
+          dayNight="昼"
 
-  <view>明天{{dayOneCondTxt}}</view>
-</view>
+></card-cmp>
+<card-cmp condTxt="{{dayOneCondTxtN}}"
+          condCode="{{dayOneCondCodeN}}"
+          windDir="{{dayOneWindDir}}"
+          windSc="{{dayOneWindSc}}"
+          date="明天"
+          dayNight="夜"
+></card-cmp>
+<card-cmp condTxt="{{dayTwoCondTxtN}}"
+          condCode="{{dayTwoCondCodeN}}"
+          windDir="{{dayTwoWindDir}}"
+          windSc="{{dayTwoWindSc}}"
+          date="后天"
+          dayNight="昼"
+></card-cmp>
+<card-cmp condTxt="{{dayTwoCondTxtN}}"
+          condCode="{{dayTwoCondCodeN}}"
+          windDir="{{dayTwoWindDir}}"
+          windSc="{{dayTwoWindSc}}"
+          date="后天"
+          dayNight="夜"
+></card-cmp>

@@ -25,5 +25,4 @@
     <image src="{{hum? '/images/hum.png' : ''}}" class="wind-img"></image>
     <text class="wind-txt">{{hum}}{{hum && " %"}}</text>
   </view>
-
 </view>

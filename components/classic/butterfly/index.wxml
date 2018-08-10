@@ -1,6 +1,6 @@
 
 
-<view class="container{{isLoad? ' ' : ' hide'}}">
+<view class="container {{show? ' ' : ' hide'}}">
   <view class="butterfly">
     <view class="wing">
       <view class="bit"></view>

@@ -1,8 +1,7 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/forecast/forecast",
-    "pages/lifestyle/lifestyle"
+    "pages/forecast/forecast"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",
@@ -24,12 +23,6 @@
         "text": "Forecast",
         "iconPath": "images/forecast.png",
         "selectedIconPath": "images/forecast-focus.png"
-      },
-      {
-        "pagePath": "pages/lifestyle/lifestyle",
-        "text": "Lifestyle",
-        "iconPath": "images/lifestyle.png",
-        "selectedIconPath": "images/lifestyle-focus.png"
       }
     ],
     "color": "#444444",

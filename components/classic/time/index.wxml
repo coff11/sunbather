@@ -2,4 +2,3 @@
   <text class="time">{{hour}}{{":"}}{{minute}}</text>
   <text class="intro">{{hour && "更新"}}</text>
 </view>
-

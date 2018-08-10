@@ -1,6 +1,6 @@
 
 .container {
-  margin-top: 100rpx;
+  margin-top: 40rpx;
   color: #3c5f81;
 }
 
@@ -46,7 +46,6 @@
   color: #3a3a3a;
   font-size: 40rpx;
 }
-
 
 .air-container {
   padding-left: 540rpx;

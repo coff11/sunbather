@@ -1,0 +1,52 @@
+
+.container {
+  font-size: 16px;
+  margin: 100rpx 50rpx;
+  height: 400rpx;
+  box-shadow: 0 0 100rpx #999;
+}
+.wind-img {
+  width: 50rpx;
+  height: 50rpx;
+  padding-right: 10rpx;
+}
+.cond-img {
+  width: 200rpx;
+  height: 200rpx;
+  align-items: center;
+  position: relative;
+  top: 80rpx;
+  left: 50rpx;
+}
+.wind-container {
+  display: flex;
+  padding-left: 400rpx;
+  padding-bottom: 30rpx;
+  position: relative;
+  bottom: 80rpx;
+}
+.cond-txt {
+  padding-left: 260rpx;
+  margin-top: -10rpx;
+  color: #3c5f81;
+  font-size: 26px;
+}
+
+.img-container {
+  display: flex;
+}
+.txt-container {
+  position: relative;
+  left: 40rpx;
+  top: 20rpx;
+}
+.tommorrow {
+  font-size: 20px;
+  border-right: 2px solid #888;
+  padding-right: 10rpx;
+}
+.t-day {
+  font-size: 16px;
+  padding-left: 10rpx;
+  font-weight: bold;
+}

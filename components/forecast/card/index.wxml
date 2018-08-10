@@ -1,0 +1,22 @@
+<!--components/forecast/card/index.wxml-->
+
+<view class="container">
+  <view class="txt-container">
+    <text class="tommorrow">{{date}}</text>
+    <text class="t-day">{{dayNight}}</text>
+  </view>
+  <view class="img-container">
+    <image src="/images/condicon/{{condCode}}.png" class="cond-img"></image>
+    <view class="cond-txt">{{condTxt}}</view>
+  </view>
+
+  <view class="wind-container">
+    <image src="{{true? '/images/wind-dir.png' : ''}}" class="wind-img"></image>
+    <text class="wind-txt">{{windDir}}</text>
+  </view>
+
+  <view class="wind-container">
+    <image src="{{true? '/images/wind-sc.png' : ''}}" class="wind-img"></image>
+    <text class="wind-txt">{{windSc}} 级</text>
+  </view>
+</view>

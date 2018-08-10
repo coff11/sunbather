@@ -7,21 +7,26 @@ Page({
    * 页面的初始数据
    */
   data: {
-    dayOneCondTxt: ''
+    dayOneCondTxtD: '',
+    dayOneCondTxtN: '',
+    dayOneCondCodeD: '',
+    dayOneCondCodeN: '',
+    dayOneWindDir: '',
+    dayOneWindSc: '',
+    dayTwoCondTxtD: '',
+    dayTwoCondTxtN: '',
+    dayTwoCondCodeD: '',
+    dayTwoCondCodeN: '',
+    dayTwoWindDir: '',
+    dayTwoWindSc: ''
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    const testVal = app.globalData.dayOneCondTxt
-    if (testVal && testVal != '') {
-      this.setData(app.globalData)
-    } else {
-      app.handleForecast = () => {
-        this.setData(app.globalData)
-      }
-    }
+    this.setData(app.globalData)
+    console.log(app.globalData)
   },
 
   /**
