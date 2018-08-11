@@ -1,4 +1,4 @@
-<!--components/classic/city/index.wxml-->
+
 <view class="container">
 <text class="china">{{dis && "中国"}}</text>
 <text class="district">{{dis}}</text>

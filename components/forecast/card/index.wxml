@@ -1,4 +1,3 @@
-<!--components/forecast/card/index.wxml-->
 
 <view class="container">
   <view class="txt-container">

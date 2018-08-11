@@ -1,9 +1,4 @@
 
-import Http from '../../util/http.js'
-import { config } from '../../config.js'
-import { errToast } from '../../util/util.js'
-
-const http = new Http()
 const app = getApp()
 
 Page({

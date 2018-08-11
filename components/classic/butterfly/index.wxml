@@ -1,5 +1,4 @@
 
-
 <view class="container {{show? ' ' : ' hide'}}">
   <view class="butterfly">
     <view class="wing">
