@@ -3,10 +3,7 @@ import { errToast } from './util.js'
 
 class Http {
 
-  /*
-   * 获取用户的位置信息
-   */
-
+  // 获取用户的位置信息
   getPosition (params) {
     wx.getLocation({
       type: 'gcj02',
@@ -19,10 +16,7 @@ class Http {
     })
   }
 
-  /*
-   * 通过调用百度地图逆地理编码API获取用户的行政区信息
-   */
-
+  // 通过调用百度地图逆地理编码API获取用户的行政区信息
   getDistrict (params) {
     wx.request({
       url: config.baiduUrl,
@@ -41,10 +35,7 @@ class Http {
     })
   }
 
-  /*
-   * 根据传入的 district 查询实时天气
-   */
-
+  // 根据传入的 district 查询实时天气
   getWeather (params) {
     wx.request({
       url: config.apiUrl + (params.url || ''),

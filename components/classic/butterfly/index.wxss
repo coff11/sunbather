@@ -42,8 +42,6 @@
     z-index: 2;
   }
   
-
-  
   .wing {
     background: #888;
     display: block;
