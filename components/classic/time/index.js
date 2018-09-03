@@ -27,11 +27,6 @@ Component({
       type: String,
       value: ''
     }
-  },
-
-  // 组件的初始数据
-  data: {
-
   }
   
 })

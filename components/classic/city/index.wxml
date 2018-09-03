@@ -1,5 +1,5 @@
 
 <view class="container">
-<text class="china">{{dis && "中国"}}</text>
-<text class="district">{{dis}}</text>
+  <text class="china">{{dis && "中国"}}</text>
+  <text class="district">{{dis}}</text>
 </view>
