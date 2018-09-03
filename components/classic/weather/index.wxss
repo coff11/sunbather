@@ -30,7 +30,8 @@
 
 .wind-container {
   display: flex;
-  padding-left: 30rpx;
+  justify-content: center;
+  /* padding-left: 30rpx; */
   padding-top: 50rpx;
   margin: 40rpx 0;
 }

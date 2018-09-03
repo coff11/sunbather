@@ -2,7 +2,6 @@
   "usingComponents": {
     "city-cmp": "/components/classic/city/index",
     "time-cmp": "/components/classic/time/index",
-    "weather-cmp": "/components/classic/weather/index",
-    "butterfly-cmp": "/components/classic/butterfly/index"
+    "weather-cmp": "/components/classic/weather/index"
   }
 }

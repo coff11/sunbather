@@ -3,7 +3,7 @@
   font-size: 16px;
   margin: 100rpx 50rpx;
   height: 400rpx;
-  box-shadow: 0 0 100rpx #999;
+  box-shadow: 0 0 30rpx #ccc;
 }
 .wind-img {
   width: 50rpx;

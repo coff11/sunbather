@@ -20,5 +20,3 @@
           windSc="{{windSc}}"
           windDir="{{windDir}}"
 ></time-cmp>
-
-<butterfly-cmp isLoad="{{isLoad}}"></butterfly-cmp>
